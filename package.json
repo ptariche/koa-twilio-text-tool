@@ -1,0 +1,36 @@
+{
+  "name": "Koa-twilio-text-tool",
+  "version": "1.0.0",
+  "description": "A super simple texting app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gohart/koa-twilio-text-tool.git"
+  },
+  "keywords": [
+    "texting",
+    "twilio",
+    "simple"
+  ],
+  "author": "Peter A. Tariche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gohart/koa-twilio-text-tool/issues"
+  },
+  "homepage": "https://github.com/gohart/koa-twilio-text-tool",
+  "dependencies": {
+    "co": "^4.5.4",
+    "is_js": "^0.7.3",
+    "koa": "^0.20.0",
+    "koa-bodyparser": "^2.0.0",
+    "koa-compress": "^1.0.8",
+    "koa-lusca": "^2.1.0",
+    "koa-router": "^4.3.2",
+    "koa-validator": "^0.6.4",
+    "lodash": "^3.8.0",
+    "twilio": "^2.2.0"
+  }
+}
